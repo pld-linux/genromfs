@@ -1,8 +1,8 @@
 Summary:	Utility for creating romfs filesystems
 Summary(pl):	Narzêdzie do tworzenia systemów plików romfs
 Name:		genromfs
-Version:	0.3
-Release:	10
+Version:	0.5
+Release:	1
 License:	GPL
 Group:		Applications/System
 Group(de):	Applikationen/System
@@ -49,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf ChangeLog genromfs.lsm romfs.txt
+gzip -9nf ChangeLog genromfs.lsm romfs.txt NEWS
 
 %clean
 rm -rf $RPM_BUILD_ROOT
