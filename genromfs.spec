@@ -35,8 +35,8 @@ ramdysku, u¿ywanym w trakcie startu systemu.
 rm -f missing
 libtoolize --copy --force
 aclocal
-automake -a -c -f
-autoconf
+%{__automake}
+%{__autoconf}
 %configure
 %{__make}
 
