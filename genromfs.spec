@@ -30,7 +30,7 @@ make
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man8}
 
-make install PREFIX=$RPM_BUILD_ROOT
+%{__make} install PREFIX=$RPM_BUILD_ROOT
 strip $RPM_BUILD_ROOT%{_bindir}/genromfs
 
 %clean
