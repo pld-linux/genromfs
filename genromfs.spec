@@ -6,7 +6,7 @@ Copyright: GPL
 Group: System Environment/Base
 Source: ftp://ftp.banki.hu/pub/linux/local/genromfs-0.3.tar.gz
 Patch: genromfs-0.3.patch
-BuildRoot: /var/tmp/%{name}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ExclusiveOS: Linux
 
 %description
