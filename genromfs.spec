@@ -14,6 +14,10 @@ Genromfs is a tool for creating romfs filesystems, which are
 lightweight, read-only filesystems supported by the Linux
 kernel.
 
+%description -l pl
+genromfs jest narzêdziem s³u¿±cym do tworzenia systemów plików romfs, które
+s± lekkimi systemami plików tylko do odczytu, obs³ugiwanymi przez j±dro Linuksa.
+
 %prep
 %setup -q
 %patch -p1
