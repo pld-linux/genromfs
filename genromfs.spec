@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/romfs/%{name}-%{version}.tar.gz
+# Source0-md5: fee69ecbf8f990fdb0ca0c7267c13e7e
 Patch0:		%{name}-ac_am.patch
 URL:		http://romfs.sourceforge.net/
 BuildRequires:	autoconf
