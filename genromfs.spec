@@ -2,11 +2,13 @@ Summary:	Utility for creating romfs filesystems
 Summary(pl):	Narzêdzie do tworzenia systemów plików romfs
 Name:		genromfs
 Version:	0.3
-Release:	9
+Release:	10
 License:	GPL
 Group:		Applications/System
 Group(de):	Applikationen/System
+Group(es):	Aplicaciones/Sistema
 Group(pl):	Aplikacje/System
+Group(pt_BR):	Aplicações/Sistema
 Source0:	ftp://ftp.banki.hu/pub/linux/local/%{name}-%{version}.tar.gz
 Patch0:		%{name}-ac_am.patch
 BuildRequires:	autoconf
