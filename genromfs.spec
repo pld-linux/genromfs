@@ -1,7 +1,7 @@
 Summary:	Utility for creating romfs filesystems
 Name:		genromfs
 Version:	0.3
-Release:	8
+Release:	9
 License:	GPL
 Group:		Applications/System
 Group(de):	Applikationen/System
@@ -46,8 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf ChangeLog genromfs.lsm romfs.txt \
-	$RPM_BUILD_ROOT%{_mandir}/man8/*
+gzip -9nf ChangeLog genromfs.lsm romfs.txt
 
 %clean
 rm -rf $RPM_BUILD_ROOT
