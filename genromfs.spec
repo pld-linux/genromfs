@@ -1,7 +1,7 @@
 Summary:	Utility for creating romfs filesystems
 Summary(pl):	Narzêdzie do tworzenia systemów plików romfs
 Name:		genromfs
-Version:	0.5
+Version:	0.5.1
 Release:	1
 License:	GPL
 Group:		Applications/System
