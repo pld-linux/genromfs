@@ -26,8 +26,8 @@ during installation.
 %description -l pl
 genromfs jest narzêdziem s³u¿±cym do tworzenia systemów plików romfs,
 które s± lekkimi systemami plików tylko do odczytu, obs³ugiwanymi
-przez j±dro Linukxa. Romfs ejst g³ównie u¿ywany na inicjalnym ramdysku
-który jest u¿ywany w trakcie startu systemu.
+przez j±dro Linuksa. Romfs jest g³ównie u¿ywany na inicjalnym
+ramdysku, u¿ywanym w trakcie startu systemu.
 
 %prep
 %setup -q
