@@ -5,7 +5,7 @@ Version:	0.5.1
 Release:	2
 License:	GPL
 Group:		Applications/System
-Source0:	http://prdownloads.sourceforge.net/romfs/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/romfs/%{name}-%{version}.tar.gz
 Patch0:		%{name}-ac_am.patch
 URL:		http://romfs.sourceforge.net/
 BuildRequires:	autoconf
