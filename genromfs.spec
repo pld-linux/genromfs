@@ -36,6 +36,7 @@ ramdysku, u¿ywanym w trakcie startu systemu.
 %patch -p1
 
 %build
+rm -f missing
 libtoolize --copy --force
 aclocal
 automake -a -c
