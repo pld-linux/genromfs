@@ -33,7 +33,7 @@ ramdysku, u¿ywanym w trakcie startu systemu.
 
 %build
 rm -f missing
-libtoolize --copy --force
+%{__libtoolize}
 aclocal
 %{__automake}
 %{__autoconf}
