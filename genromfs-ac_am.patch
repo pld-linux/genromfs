@@ -12,7 +12,7 @@ diff -Nru genromfs-0.3/Makefile.am genromfs-0.3.new/Makefile.am
 +
 +man_MANS = genromfs.8
 +
-+EXTRA_DIST = genromfs.lsm readme-kernel-patch romfs.txt ChangeLog
++EXTRA_DIST = genromfs.lsm readme-kernel-patch romfs.txt ChangeLog NEWS
 +
 diff -Nru genromfs-0.3/configure.in genromfs-0.3.new/configure.in
 --- genromfs-0.3/configure.in	Thu Jan  1 01:00:00 1970
@@ -24,7 +24,7 @@ diff -Nru genromfs-0.3/configure.in genromfs-0.3.new/configure.in
 +
 +AC_CANONICAL_SYSTEM
 +
-+AM_INIT_AUTOMAKE(genromfs, 0.3)
++AM_INIT_AUTOMAKE(genromfs, 0.5)
 +
 +AM_MAINTAINER_MODE
 +
