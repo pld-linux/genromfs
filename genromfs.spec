@@ -1,4 +1,5 @@
 Summary:	Utility for creating romfs filesystems
+Summary(pl):	Narzêdzie do tworzenia systemów plików romfs
 Name:		genromfs
 Version:	0.3
 Release:	9
@@ -17,7 +18,7 @@ ExclusiveOS:	Linux
 %define		_sbindir	/sbin
 
 %description
-enromfs is a tool for creating romfs filesystems, which are
+genromfs is a tool for creating romfs filesystems, which are
 lightweight, read-only filesystems supported by the Linux kernel.
 Romfs filesystems are mainly used for the initial RAM disks used
 during installation.
