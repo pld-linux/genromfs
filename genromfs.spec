@@ -31,7 +31,7 @@ ramdysku, u¿ywanym w trakcie startu systemu.
 
 %prep
 %setup -q
-%patch -p1
+%patch0 -p1
 
 %build
 rm -f missing
