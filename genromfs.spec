@@ -1,5 +1,5 @@
 Summary:	Utility for creating romfs filesystems
-Summary(pl):	Narzêdzie do tworzenia systemów plików romfs
+Summary(pl.UTF-8):   NarzÄ™dzie do tworzenia systemÃ³w plikÃ³w romfs
 Name:		genromfs
 Version:	0.5.1
 Release:	3
@@ -23,11 +23,11 @@ lightweight, read-only filesystems supported by the Linux kernel.
 Romfs filesystems are mainly used for the initial RAM disks used
 during installation.
 
-%description -l pl
-genromfs jest narzêdziem s³u¿±cym do tworzenia systemów plików romfs,
-które s± lekkimi systemami plików tylko do odczytu, obs³ugiwanymi
-przez j±dro Linuksa. Romfs jest g³ównie u¿ywany na inicjalnym
-ramdysku, u¿ywanym w trakcie startu systemu.
+%description -l pl.UTF-8
+genromfs jest narzÄ™dziem sÅ‚uÅ¼Ä…cym do tworzenia systemÃ³w plikÃ³w romfs,
+ktÃ³re sÄ… lekkimi systemami plikÃ³w tylko do odczytu, obsÅ‚ugiwanymi
+przez jÄ…dro Linuksa. Romfs jest gÅ‚Ã³wnie uÅ¼ywany na inicjalnym
+ramdysku, uÅ¼ywanym w trakcie startu systemu.
 
 %prep
 %setup -q
