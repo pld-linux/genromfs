@@ -1,5 +1,5 @@
 Summary:	Utility for creating romfs filesystems
-Summary(pl.UTF-8):   Narzędzie do tworzenia systemów plików romfs
+Summary(pl.UTF-8):	Narzędzie do tworzenia systemów plików romfs
 Name:		genromfs
 Version:	0.5.1
 Release:	3
