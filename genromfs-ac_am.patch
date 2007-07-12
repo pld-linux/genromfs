@@ -17,14 +17,14 @@ diff -Nru genromfs-0.3/Makefile.am genromfs-0.3.new/Makefile.am
 diff -Nru genromfs-0.3/configure.in genromfs-0.3.new/configure.in
 --- genromfs-0.3/configure.in	Thu Jan  1 01:00:00 1970
 +++ genromfs-0.3.new/configure.in	Sun Sep 24 18:52:47 2000
-@@ -0,0 +1,36 @@
+@@ -0,0 +1,35 @@
 +dnl Process this file with autoconf to produce a configure script
 +
 +AC_INIT(configure.in)
 +
 +AC_CANONICAL_SYSTEM
 +
-+AM_INIT_AUTOMAKE(genromfs, 0.5)
++AM_INIT_AUTOMAKE(genromfs, 0.5.2)
 +
 +AM_MAINTAINER_MODE
 +
@@ -34,7 +34,6 @@ diff -Nru genromfs-0.3/configure.in genromfs-0.3.new/configure.in
 +AC_PROG_INSTALL
 +AC_PROG_LN_S
 +AC_PROG_MAKE_SET
-+AM_PROG_LIBTOOL
 +
 +dnl Checks for libraries.
 +
