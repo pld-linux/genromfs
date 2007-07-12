@@ -1,19 +1,17 @@
 Summary:	Utility for creating romfs filesystems
 Summary(pl.UTF-8):	Narzędzie do tworzenia systemów plików romfs
 Name:		genromfs
-Version:	0.5.1
-Release:	3
-License:	GPL
+Version:	0.5.2
+Release:	1
+License:	GPL v2+
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/romfs/%{name}-%{version}.tar.gz
-# Source0-md5:	fee69ecbf8f990fdb0ca0c7267c13e7e
+# Source0-md5:	2a91463c56f9e042edc330c063a0cf5a
 Patch0:		%{name}-ac_am.patch
 URL:		http://romfs.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-ExclusiveOS:	Linux
 
 %define		_sbindir	/sbin
 
@@ -34,7 +32,6 @@ ramdysku, używanym w trakcie startu systemu.
 %patch0 -p1
 
 %build
-rm -f missing
 %{__libtoolize}
 %{__aclocal}
 %{__automake}
@@ -53,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog genromfs.lsm romfs.txt NEWS
-%attr(755,root,root) %{_sbindir}/*
-%{_mandir}/man8/*
+%doc ChangeLog NEWS genromfs.lsm romfs.txt
+%attr(755,root,root) %{_sbindir}/genromfs
+%{_mandir}/man8/genromfs.8*
