@@ -11,6 +11,7 @@ Patch0:		%{name}-ac_am.patch
 URL:		http://romfs.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sbindir	/sbin
